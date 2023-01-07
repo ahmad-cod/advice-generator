@@ -54,6 +54,7 @@
 .dice-icon:hover {
   box-shadow: 0 0 25px hsl(150, 100%, 66%);
   cursor: pointer;
+  animation: spin 3s linear;
 }
 .card {
   padding: 2em;
@@ -64,7 +65,7 @@
   text-transform: uppercase;
 }
 
-@keyframes logo-spin {
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }
