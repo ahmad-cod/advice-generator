@@ -29,5 +29,6 @@ body {
     display: block;
     margin-top: 20vh;
     padding-inline: 5px;
+    max-height: 100vh;
   }
 }
